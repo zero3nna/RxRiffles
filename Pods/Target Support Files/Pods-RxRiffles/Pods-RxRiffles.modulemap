@@ -1,0 +1,6 @@
+framework module Pods_RxRiffles {
+  umbrella header "Pods-RxRiffles-umbrella.h"
+
+  export *
+  module * { export * }
+}
