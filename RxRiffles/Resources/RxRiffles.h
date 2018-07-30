@@ -1,10 +1,3 @@
-//
-//  RxRiffles.h
-//  RxRiffles
-//
-//  Created by Schön, Ralph on 30.07.18.
-//
-
 #import <UIKit/UIKit.h>
 
 //! Project version number for RxRiffles.

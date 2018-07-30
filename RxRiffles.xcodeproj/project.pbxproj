@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C3814E15761C21A181C546F /* Pods_RxRiffles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E461CA2DF71CCB87FF3D2F /* Pods_RxRiffles.framework */; };
 		30C1F464210F3C420093B664 /* RxRiffles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1F45A210F3C410093B664 /* RxRiffles.framework */; };
-		30C1F469210F3C420093B664 /* RxRifflesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1F468210F3C420093B664 /* RxRifflesTests.swift */; };
 		30C1F46B210F3C420093B664 /* RxRiffles.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C1F45D210F3C410093B664 /* RxRiffles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30C1F479210F3D170093B664 /* Riddle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1F478210F3D170093B664 /* Riddle1.swift */; };
 		30EEE0A2210F42E6009FEF85 /* Riddle1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEE0A1210F42E6009FEF85 /* Riddle1Tests.swift */; };
@@ -38,7 +37,6 @@
 		30C1F45D210F3C410093B664 /* RxRiffles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxRiffles.h; sourceTree = "<group>"; };
 		30C1F45E210F3C410093B664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C1F463210F3C420093B664 /* RxRifflesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxRifflesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		30C1F468210F3C420093B664 /* RxRifflesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxRifflesTests.swift; sourceTree = "<group>"; };
 		30C1F46A210F3C420093B664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30C1F478210F3D170093B664 /* Riddle1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle1.swift; sourceTree = "<group>"; };
 		30EEE0A1210F42E6009FEF85 /* Riddle1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle1Tests.swift; sourceTree = "<group>"; };
@@ -143,7 +141,6 @@
 		30C1F476210F3CC60093B664 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				30C1F468210F3C420093B664 /* RxRifflesTests.swift */,
 				30C1F46A210F3C420093B664 /* Info.plist */,
 			);
 			path = Resources;
@@ -362,7 +359,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				30EEE0AB210F5569009FEF85 /* Riddle2Tests.swift in Sources */,
-				30C1F469210F3C420093B664 /* RxRifflesTests.swift in Sources */,
 				30EEE0A2210F42E6009FEF85 /* Riddle1Tests.swift in Sources */,
 				30EEE0A5210F5081009FEF85 /* Riddle1Solution.swift in Sources */,
 				30EEE0A9210F550A009FEF85 /* Riddle2Solution.swift in Sources */,
