@@ -17,8 +17,9 @@ class Riddle1Tests: XCTestCase {
     }
 
     func testSolve() {
-        _ = Riddle1().solve(value: 5).subscribe(observer)
         let expectation = [next(0, 5), completed(0)]
+        
+        _ = Riddle1().solve(value: 5).subscribe(observer)
 
         XCTAssertEqual(observer.events, expectation)
     }

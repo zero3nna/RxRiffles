@@ -17,16 +17,10 @@ class Riddle2Tests: XCTestCase {
     }
 
     func testSolve() {
-        let input = Observable<Int>.create { obs in
-            obs.onNext(-1)
-            obs.onNext(0)
-            obs.onNext(5)
-            obs.onCompleted()
-            return Disposables.create()
-        }
+        let input = Observable.from([-1, 0, 5])
+        let expectation = [next(0, 0), next(0, 1), next(0, 6), completed(0)]
 
         _ = Riddle2().solve(source:input).subscribe(observer)
-        let expectation = [next(0, 0), next(0, 1), next(0, 6), completed(0)]
 
         XCTAssertEqual(observer.events, expectation)
     }
