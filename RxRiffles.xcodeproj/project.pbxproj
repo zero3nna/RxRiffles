@@ -8,6 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2C3814E15761C21A181C546F /* Pods_RxRiffles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E461CA2DF71CCB87FF3D2F /* Pods_RxRiffles.framework */; };
+		302B967D21134BB700D0D266 /* Riddle7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B967B21134BB700D0D266 /* Riddle7.swift */; };
+		302B967E21134BB700D0D266 /* Riddle8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B967C21134BB700D0D266 /* Riddle8.swift */; };
+		302B968121134BC800D0D266 /* Riddle8Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B967F21134BC800D0D266 /* Riddle8Solution.swift */; };
+		302B968221134BC800D0D266 /* Riddle7Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B968021134BC800D0D266 /* Riddle7Solution.swift */; };
+		302B968521134BD700D0D266 /* Riddle8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B968321134BD700D0D266 /* Riddle8Tests.swift */; };
+		302B968621134BD700D0D266 /* Riddle7Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 302B968421134BD700D0D266 /* Riddle7Tests.swift */; };
+		305ABC792110449700681D01 /* Riddle5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC782110449700681D01 /* Riddle5.swift */; };
+		305ABC7B211044E500681D01 /* Riddle5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC7A211044E500681D01 /* Riddle5Tests.swift */; };
+		305ABC7D211044F700681D01 /* Riddle5Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC7C211044F700681D01 /* Riddle5Solution.swift */; };
+		305ABC7F2110493D00681D01 /* Riddle6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC7E2110493D00681D01 /* Riddle6.swift */; };
+		305ABC8321104A4100681D01 /* Riddle6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8221104A4100681D01 /* Riddle6Solution.swift */; };
+		305ABC8521104BE900681D01 /* AtomicInterger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8421104BE900681D01 /* AtomicInterger.swift */; };
+		305ABC8721105FB800681D01 /* Riddle6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8621105FB800681D01 /* Riddle6Tests.swift */; };
 		30C1F464210F3C420093B664 /* RxRiffles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1F45A210F3C410093B664 /* RxRiffles.framework */; };
 		30C1F46B210F3C420093B664 /* RxRiffles.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C1F45D210F3C410093B664 /* RxRiffles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30C1F479210F3D170093B664 /* Riddle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1F478210F3D170093B664 /* Riddle1.swift */; };
@@ -17,6 +30,15 @@
 		30EEE0A9210F550A009FEF85 /* Riddle2Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEE0A8210F550A009FEF85 /* Riddle2Solution.swift */; };
 		30EEE0AB210F5569009FEF85 /* Riddle2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30EEE0AA210F5569009FEF85 /* Riddle2Tests.swift */; };
 		A4487FD4EDB82A8D361D2F1E /* Pods_RxRifflesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FA2B632391E624AB22C46E0 /* Pods_RxRifflesTests.framework */; };
+		DA169690210F9D590095864B /* Riddle3.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16968F210F9D590095864B /* Riddle3.swift */; };
+		DA169692210F9DD30095864B /* Riddle3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA169691210F9DD30095864B /* Riddle3Tests.swift */; };
+		DA169697210FA01E0095864B /* Riddle3Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA169696210FA01E0095864B /* Riddle3Solution.swift */; };
+		DA169699210FA10D0095864B /* Riddle4.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA169698210FA10D0095864B /* Riddle4.swift */; };
+		DA16969B210FA1610095864B /* Riddle4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16969A210FA1610095864B /* Riddle4Tests.swift */; };
+		DA16969D210FA1A20095864B /* Riddle4Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA16969C210FA1A20095864B /* Riddle4Solution.swift */; };
+		DAD9FF2321138AD900242A2B /* Riddle9.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9FF2221138AD900242A2B /* Riddle9.swift */; };
+		DAD9FF2521138E9B00242A2B /* Riddle9Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9FF2421138E9B00242A2B /* Riddle9Solution.swift */; };
+		DAD9FF2721138EAF00242A2B /* Riddle9Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAD9FF2621138EAF00242A2B /* Riddle9Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +55,19 @@
 		01173F1A94F5B73AA47F9CA8 /* Pods-RxRiffles.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRiffles.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRiffles/Pods-RxRiffles.release.xcconfig"; sourceTree = "<group>"; };
 		1FA2B632391E624AB22C46E0 /* Pods_RxRifflesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRifflesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E461CA2DF71CCB87FF3D2F /* Pods_RxRiffles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxRiffles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		302B967B21134BB700D0D266 /* Riddle7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle7.swift; sourceTree = "<group>"; };
+		302B967C21134BB700D0D266 /* Riddle8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle8.swift; sourceTree = "<group>"; };
+		302B967F21134BC800D0D266 /* Riddle8Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle8Solution.swift; sourceTree = "<group>"; };
+		302B968021134BC800D0D266 /* Riddle7Solution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle7Solution.swift; sourceTree = "<group>"; };
+		302B968321134BD700D0D266 /* Riddle8Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle8Tests.swift; sourceTree = "<group>"; };
+		302B968421134BD700D0D266 /* Riddle7Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Riddle7Tests.swift; sourceTree = "<group>"; };
+		305ABC782110449700681D01 /* Riddle5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle5.swift; sourceTree = "<group>"; };
+		305ABC7A211044E500681D01 /* Riddle5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle5Tests.swift; sourceTree = "<group>"; };
+		305ABC7C211044F700681D01 /* Riddle5Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle5Solution.swift; sourceTree = "<group>"; };
+		305ABC7E2110493D00681D01 /* Riddle6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6.swift; sourceTree = "<group>"; };
+		305ABC8221104A4100681D01 /* Riddle6Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Solution.swift; sourceTree = "<group>"; };
+		305ABC8421104BE900681D01 /* AtomicInterger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInterger.swift; sourceTree = "<group>"; };
+		305ABC8621105FB800681D01 /* Riddle6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Tests.swift; sourceTree = "<group>"; };
 		30C1F45A210F3C410093B664 /* RxRiffles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRiffles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C1F45D210F3C410093B664 /* RxRiffles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxRiffles.h; sourceTree = "<group>"; };
 		30C1F45E210F3C410093B664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,6 +83,15 @@
 		3951A1DE3C287A9968AF07B2 /* Pods-RxRiffles.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRiffles.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxRiffles/Pods-RxRiffles.debug.xcconfig"; sourceTree = "<group>"; };
 		6234943E8566FA4EB1EFB6B3 /* Pods-RxRifflesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRifflesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxRifflesTests/Pods-RxRifflesTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D79FECE2D7D56EA3FF4F9D84 /* Pods-RxRifflesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxRifflesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxRifflesTests/Pods-RxRifflesTests.release.xcconfig"; sourceTree = "<group>"; };
+		DA16968F210F9D590095864B /* Riddle3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle3.swift; sourceTree = "<group>"; };
+		DA169691210F9DD30095864B /* Riddle3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle3Tests.swift; sourceTree = "<group>"; };
+		DA169696210FA01E0095864B /* Riddle3Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle3Solution.swift; sourceTree = "<group>"; };
+		DA169698210FA10D0095864B /* Riddle4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle4.swift; sourceTree = "<group>"; };
+		DA16969A210FA1610095864B /* Riddle4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle4Tests.swift; sourceTree = "<group>"; };
+		DA16969C210FA1A20095864B /* Riddle4Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle4Solution.swift; sourceTree = "<group>"; };
+		DAD9FF2221138AD900242A2B /* Riddle9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle9.swift; sourceTree = "<group>"; };
+		DAD9FF2421138E9B00242A2B /* Riddle9Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle9Solution.swift; sourceTree = "<group>"; };
+		DAD9FF2621138EAF00242A2B /* Riddle9Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle9Tests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +159,7 @@
 			children = (
 				30EEE0A3210F5074009FEF85 /* Solutions */,
 				30C1F477210F3CD30093B664 /* RiddleTests */,
+				DA169693210F9E280095864B /* Tools */,
 				30C1F476210F3CC60093B664 /* Resources */,
 			);
 			path = RxRifflesTests;
@@ -125,6 +170,13 @@
 			children = (
 				30C1F478210F3D170093B664 /* Riddle1.swift */,
 				30EEE0A6210F54B1009FEF85 /* Riddle2.swift */,
+				DA16968F210F9D590095864B /* Riddle3.swift */,
+				DA169698210FA10D0095864B /* Riddle4.swift */,
+				305ABC782110449700681D01 /* Riddle5.swift */,
+				305ABC7E2110493D00681D01 /* Riddle6.swift */,
+				302B967B21134BB700D0D266 /* Riddle7.swift */,
+				302B967C21134BB700D0D266 /* Riddle8.swift */,
+				DAD9FF2221138AD900242A2B /* Riddle9.swift */,
 			);
 			path = Riddle;
 			sourceTree = "<group>";
@@ -151,6 +203,13 @@
 			children = (
 				30EEE0A1210F42E6009FEF85 /* Riddle1Tests.swift */,
 				30EEE0AA210F5569009FEF85 /* Riddle2Tests.swift */,
+				DA169691210F9DD30095864B /* Riddle3Tests.swift */,
+				DA16969A210FA1610095864B /* Riddle4Tests.swift */,
+				305ABC7A211044E500681D01 /* Riddle5Tests.swift */,
+				305ABC8621105FB800681D01 /* Riddle6Tests.swift */,
+				302B968421134BD700D0D266 /* Riddle7Tests.swift */,
+				302B968321134BD700D0D266 /* Riddle8Tests.swift */,
+				DAD9FF2621138EAF00242A2B /* Riddle9Tests.swift */,
 			);
 			path = RiddleTests;
 			sourceTree = "<group>";
@@ -160,6 +219,13 @@
 			children = (
 				30EEE0A4210F5081009FEF85 /* Riddle1Solution.swift */,
 				30EEE0A8210F550A009FEF85 /* Riddle2Solution.swift */,
+				DA169696210FA01E0095864B /* Riddle3Solution.swift */,
+				DA16969C210FA1A20095864B /* Riddle4Solution.swift */,
+				305ABC7C211044F700681D01 /* Riddle5Solution.swift */,
+				305ABC8221104A4100681D01 /* Riddle6Solution.swift */,
+				302B968021134BC800D0D266 /* Riddle7Solution.swift */,
+				302B967F21134BC800D0D266 /* Riddle8Solution.swift */,
+				DAD9FF2421138E9B00242A2B /* Riddle9Solution.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -173,6 +239,14 @@
 				D79FECE2D7D56EA3FF4F9D84 /* Pods-RxRifflesTests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		DA169693210F9E280095864B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				305ABC8421104BE900681D01 /* AtomicInterger.swift */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,6 +367,7 @@
 				"${BUILT_PRODUCTS_DIR}/RxBlocking/RxBlocking.framework",
 				"${BUILT_PRODUCTS_DIR}/RxTest/RxTest.framework",
 				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwiftExt/RxSwiftExt.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -300,6 +375,7 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxBlocking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxTest.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwiftExt.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -349,8 +425,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				305ABC792110449700681D01 /* Riddle5.swift in Sources */,
+				DA169699210FA10D0095864B /* Riddle4.swift in Sources */,
+				DAD9FF2321138AD900242A2B /* Riddle9.swift in Sources */,
+				302B967D21134BB700D0D266 /* Riddle7.swift in Sources */,
+				305ABC7F2110493D00681D01 /* Riddle6.swift in Sources */,
+				302B967E21134BB700D0D266 /* Riddle8.swift in Sources */,
 				30EEE0A7210F54B1009FEF85 /* Riddle2.swift in Sources */,
 				30C1F479210F3D170093B664 /* Riddle1.swift in Sources */,
+				DA169690210F9D590095864B /* Riddle3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,10 +441,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA16969B210FA1610095864B /* Riddle4Tests.swift in Sources */,
+				305ABC8321104A4100681D01 /* Riddle6Solution.swift in Sources */,
+				305ABC7B211044E500681D01 /* Riddle5Tests.swift in Sources */,
 				30EEE0AB210F5569009FEF85 /* Riddle2Tests.swift in Sources */,
+				DAD9FF2521138E9B00242A2B /* Riddle9Solution.swift in Sources */,
+				DAD9FF2721138EAF00242A2B /* Riddle9Tests.swift in Sources */,
 				30EEE0A2210F42E6009FEF85 /* Riddle1Tests.swift in Sources */,
+				302B968621134BD700D0D266 /* Riddle7Tests.swift in Sources */,
+				DA169692210F9DD30095864B /* Riddle3Tests.swift in Sources */,
 				30EEE0A5210F5081009FEF85 /* Riddle1Solution.swift in Sources */,
+				305ABC7D211044F700681D01 /* Riddle5Solution.swift in Sources */,
+				302B968221134BC800D0D266 /* Riddle7Solution.swift in Sources */,
 				30EEE0A9210F550A009FEF85 /* Riddle2Solution.swift in Sources */,
+				302B968521134BD700D0D266 /* Riddle8Tests.swift in Sources */,
+				305ABC8521104BE900681D01 /* AtomicInterger.swift in Sources */,
+				305ABC8721105FB800681D01 /* Riddle6Tests.swift in Sources */,
+				DA16969D210FA1A20095864B /* Riddle4Solution.swift in Sources */,
+				DA169697210FA01E0095864B /* Riddle3Solution.swift in Sources */,
+				302B968121134BC800D0D266 /* Riddle8Solution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

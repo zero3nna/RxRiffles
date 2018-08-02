@@ -8,6 +8,7 @@ target 'RxRiffles' do
   # Pods for RxRiffles
   pod 'RxSwift',    '~> 4.0'
   pod 'RxCocoa',    '~> 4.0'
+  pod 'RxSwiftExt', '~> 3.0'
 
   target 'RxRifflesTests' do
     inherit! :search_paths
