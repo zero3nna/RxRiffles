@@ -21,6 +21,9 @@
 		305ABC8321104A4100681D01 /* Riddle6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8221104A4100681D01 /* Riddle6Solution.swift */; };
 		305ABC8521104BE900681D01 /* AtomicInterger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8421104BE900681D01 /* AtomicInterger.swift */; };
 		305ABC8721105FB800681D01 /* Riddle6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8621105FB800681D01 /* Riddle6Tests.swift */; };
+		30B76D3F21184FDA00B70F53 /* Riddle10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D3E21184FDA00B70F53 /* Riddle10.swift */; };
+		30B76D41211855FB00B70F53 /* Riddle10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D40211855FB00B70F53 /* Riddle10Tests.swift */; };
+		30B76D432118561700B70F53 /* Riddle10Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D422118561700B70F53 /* Riddle10Solution.swift */; };
 		30C1F464210F3C420093B664 /* RxRiffles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C1F45A210F3C410093B664 /* RxRiffles.framework */; };
 		30C1F46B210F3C420093B664 /* RxRiffles.h in Headers */ = {isa = PBXBuildFile; fileRef = 30C1F45D210F3C410093B664 /* RxRiffles.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30C1F479210F3D170093B664 /* Riddle1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30C1F478210F3D170093B664 /* Riddle1.swift */; };
@@ -68,6 +71,9 @@
 		305ABC8221104A4100681D01 /* Riddle6Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Solution.swift; sourceTree = "<group>"; };
 		305ABC8421104BE900681D01 /* AtomicInterger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInterger.swift; sourceTree = "<group>"; };
 		305ABC8621105FB800681D01 /* Riddle6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Tests.swift; sourceTree = "<group>"; };
+		30B76D3E21184FDA00B70F53 /* Riddle10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10.swift; sourceTree = "<group>"; };
+		30B76D40211855FB00B70F53 /* Riddle10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10Tests.swift; sourceTree = "<group>"; };
+		30B76D422118561700B70F53 /* Riddle10Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10Solution.swift; sourceTree = "<group>"; };
 		30C1F45A210F3C410093B664 /* RxRiffles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxRiffles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		30C1F45D210F3C410093B664 /* RxRiffles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RxRiffles.h; sourceTree = "<group>"; };
 		30C1F45E210F3C410093B664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -177,6 +183,7 @@
 				302B967B21134BB700D0D266 /* Riddle7.swift */,
 				302B967C21134BB700D0D266 /* Riddle8.swift */,
 				DAD9FF2221138AD900242A2B /* Riddle9.swift */,
+				30B76D3E21184FDA00B70F53 /* Riddle10.swift */,
 			);
 			path = Riddle;
 			sourceTree = "<group>";
@@ -210,6 +217,7 @@
 				302B968421134BD700D0D266 /* Riddle7Tests.swift */,
 				302B968321134BD700D0D266 /* Riddle8Tests.swift */,
 				DAD9FF2621138EAF00242A2B /* Riddle9Tests.swift */,
+				30B76D40211855FB00B70F53 /* Riddle10Tests.swift */,
 			);
 			path = RiddleTests;
 			sourceTree = "<group>";
@@ -226,6 +234,7 @@
 				302B968021134BC800D0D266 /* Riddle7Solution.swift */,
 				302B967F21134BC800D0D266 /* Riddle8Solution.swift */,
 				DAD9FF2421138E9B00242A2B /* Riddle9Solution.swift */,
+				30B76D422118561700B70F53 /* Riddle10Solution.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -431,6 +440,7 @@
 				302B967D21134BB700D0D266 /* Riddle7.swift in Sources */,
 				305ABC7F2110493D00681D01 /* Riddle6.swift in Sources */,
 				302B967E21134BB700D0D266 /* Riddle8.swift in Sources */,
+				30B76D3F21184FDA00B70F53 /* Riddle10.swift in Sources */,
 				30EEE0A7210F54B1009FEF85 /* Riddle2.swift in Sources */,
 				30C1F479210F3D170093B664 /* Riddle1.swift in Sources */,
 				DA169690210F9D590095864B /* Riddle3.swift in Sources */,
@@ -450,11 +460,13 @@
 				30EEE0A2210F42E6009FEF85 /* Riddle1Tests.swift in Sources */,
 				302B968621134BD700D0D266 /* Riddle7Tests.swift in Sources */,
 				DA169692210F9DD30095864B /* Riddle3Tests.swift in Sources */,
+				30B76D432118561700B70F53 /* Riddle10Solution.swift in Sources */,
 				30EEE0A5210F5081009FEF85 /* Riddle1Solution.swift in Sources */,
 				305ABC7D211044F700681D01 /* Riddle5Solution.swift in Sources */,
 				302B968221134BC800D0D266 /* Riddle7Solution.swift in Sources */,
 				30EEE0A9210F550A009FEF85 /* Riddle2Solution.swift in Sources */,
 				302B968521134BD700D0D266 /* Riddle8Tests.swift in Sources */,
+				30B76D41211855FB00B70F53 /* Riddle10Tests.swift in Sources */,
 				305ABC8521104BE900681D01 /* AtomicInterger.swift in Sources */,
 				305ABC8721105FB800681D01 /* Riddle6Tests.swift in Sources */,
 				DA16969D210FA1A20095864B /* Riddle4Solution.swift in Sources */,
