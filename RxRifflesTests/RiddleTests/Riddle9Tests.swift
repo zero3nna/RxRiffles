@@ -13,7 +13,7 @@ class Riddle9Tests: XCTestCase {
         observer = scheduler.createObserver(Void.self)
         let trigger = PublishSubject<Void>()
         let main = Observable<Int>.interval(1, scheduler: scheduler).map { _ in () }
-        
+
         _ = Riddle9().solve(main: main, trigger: trigger).subscribe(observer)
         XCTAssertTrue(observer.events.isEmpty)
         

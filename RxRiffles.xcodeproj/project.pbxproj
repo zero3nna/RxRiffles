@@ -21,6 +21,9 @@
 		305ABC8321104A4100681D01 /* Riddle6Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8221104A4100681D01 /* Riddle6Solution.swift */; };
 		305ABC8521104BE900681D01 /* AtomicInterger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8421104BE900681D01 /* AtomicInterger.swift */; };
 		305ABC8721105FB800681D01 /* Riddle6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 305ABC8621105FB800681D01 /* Riddle6Tests.swift */; };
+		309DDBB1213415CF001E5DAF /* Riddle11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DDBB0213415CF001E5DAF /* Riddle11.swift */; };
+		309DDBB3213417E3001E5DAF /* Riddle11Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DDBB2213417E3001E5DAF /* Riddle11Solution.swift */; };
+		309DDBB521341808001E5DAF /* Riddle11Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 309DDBB421341808001E5DAF /* Riddle11Tests.swift */; };
 		30B76D3F21184FDA00B70F53 /* Riddle10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D3E21184FDA00B70F53 /* Riddle10.swift */; };
 		30B76D41211855FB00B70F53 /* Riddle10Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D40211855FB00B70F53 /* Riddle10Tests.swift */; };
 		30B76D432118561700B70F53 /* Riddle10Solution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B76D422118561700B70F53 /* Riddle10Solution.swift */; };
@@ -71,6 +74,9 @@
 		305ABC8221104A4100681D01 /* Riddle6Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Solution.swift; sourceTree = "<group>"; };
 		305ABC8421104BE900681D01 /* AtomicInterger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicInterger.swift; sourceTree = "<group>"; };
 		305ABC8621105FB800681D01 /* Riddle6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle6Tests.swift; sourceTree = "<group>"; };
+		309DDBB0213415CF001E5DAF /* Riddle11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle11.swift; sourceTree = "<group>"; };
+		309DDBB2213417E3001E5DAF /* Riddle11Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle11Solution.swift; sourceTree = "<group>"; };
+		309DDBB421341808001E5DAF /* Riddle11Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle11Tests.swift; sourceTree = "<group>"; };
 		30B76D3E21184FDA00B70F53 /* Riddle10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10.swift; sourceTree = "<group>"; };
 		30B76D40211855FB00B70F53 /* Riddle10Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10Tests.swift; sourceTree = "<group>"; };
 		30B76D422118561700B70F53 /* Riddle10Solution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Riddle10Solution.swift; sourceTree = "<group>"; };
@@ -184,6 +190,7 @@
 				302B967C21134BB700D0D266 /* Riddle8.swift */,
 				DAD9FF2221138AD900242A2B /* Riddle9.swift */,
 				30B76D3E21184FDA00B70F53 /* Riddle10.swift */,
+				309DDBB0213415CF001E5DAF /* Riddle11.swift */,
 			);
 			path = Riddle;
 			sourceTree = "<group>";
@@ -218,6 +225,7 @@
 				302B968321134BD700D0D266 /* Riddle8Tests.swift */,
 				DAD9FF2621138EAF00242A2B /* Riddle9Tests.swift */,
 				30B76D40211855FB00B70F53 /* Riddle10Tests.swift */,
+				309DDBB421341808001E5DAF /* Riddle11Tests.swift */,
 			);
 			path = RiddleTests;
 			sourceTree = "<group>";
@@ -235,6 +243,7 @@
 				302B967F21134BC800D0D266 /* Riddle8Solution.swift */,
 				DAD9FF2421138E9B00242A2B /* Riddle9Solution.swift */,
 				30B76D422118561700B70F53 /* Riddle10Solution.swift */,
+				309DDBB2213417E3001E5DAF /* Riddle11Solution.swift */,
 			);
 			path = Solutions;
 			sourceTree = "<group>";
@@ -444,6 +453,7 @@
 				30EEE0A7210F54B1009FEF85 /* Riddle2.swift in Sources */,
 				30C1F479210F3D170093B664 /* Riddle1.swift in Sources */,
 				DA169690210F9D590095864B /* Riddle3.swift in Sources */,
+				309DDBB1213415CF001E5DAF /* Riddle11.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,8 +469,10 @@
 				DAD9FF2721138EAF00242A2B /* Riddle9Tests.swift in Sources */,
 				30EEE0A2210F42E6009FEF85 /* Riddle1Tests.swift in Sources */,
 				302B968621134BD700D0D266 /* Riddle7Tests.swift in Sources */,
+				309DDBB521341808001E5DAF /* Riddle11Tests.swift in Sources */,
 				DA169692210F9DD30095864B /* Riddle3Tests.swift in Sources */,
 				30B76D432118561700B70F53 /* Riddle10Solution.swift in Sources */,
+				309DDBB3213417E3001E5DAF /* Riddle11Solution.swift in Sources */,
 				30EEE0A5210F5081009FEF85 /* Riddle1Solution.swift in Sources */,
 				305ABC7D211044F700681D01 /* Riddle5Solution.swift in Sources */,
 				302B968221134BC800D0D266 /* Riddle7Solution.swift in Sources */,
