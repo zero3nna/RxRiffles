@@ -1,4 +1,4 @@
-RxRiffles
+RxSwift Riddles
 =========
 
 This repository contains some riddles for RxSwift to help you learn and master RxSwift.
